@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Willkommen zum Quiz</h1>
+    <div id="start">
+      <h2>Raum erstellen oder beitreten</h2>
+      <input type="text" id="roomCode" placeholder="Raumcode eingeben">
+      <button id="createRoom">Raum erstellen</button>
+      <button id="joinRoom">Beitreten</button>
+    </div>
+
+    <div id="teamSetup" style="display: none;">
+      <h2>Teams konfigurieren</h2>
+      <input type="number" id="teamCount" placeholder="Anzahl der Teams" min="1">
+      <button id="setupTeams">Bestätigen</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
